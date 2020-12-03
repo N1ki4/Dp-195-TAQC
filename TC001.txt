@@ -1,0 +1,40 @@
+
+
+### Test Case Summary: 
+
+Registration Page: Verification of new User Registration with valid data
+
+---
+
+**Test Case ID:** 001
+
+**Environment:** Google Chrome
+
+**Description:**
+
+Test case check a Creating a new account
+
+---
+
+**Pre-conditions:**
+1. Open 'Registration page'
+
+---
+
+|      ID       | Steps/Actions |  Test Data  | Expected Result |
+| :------------ |:--------------| :---------- | :-------------- |
+|       1       | Fill 'First Name' field | Valid Name | "First name" input is filled with given text data |
+|       2       | Fill 'Last Name' field | Valid Last Name | "Last name" input is filled with given text data |
+|       3       | Fill 'E-Mail' field	| Valid e-mail | "E-Mail" input is filled with given text data	|
+|       4       | Fill 'Telephone' field | Valid telephone nomber	"Telephone" | input is filled with given text data	 are neat |
+|       5       | Fill "Password' field	|	Valid password | "Password" input is filled with given text data	
+|       6       | Fill 'Password Confirm'	|	Valid password	"Password Confirm" | input is filled with given text data	|
+|       7       | Agree with Privat Policy |             | Checkbox selected |
+|       8       | Click 'Continue' button |             | Displayed notification 'Your Account Has Been Created!'	|
+
+
+---
+
+**Post-conditions:**
+1. Clean cookies and cache in the browser
+2. Close Browser
